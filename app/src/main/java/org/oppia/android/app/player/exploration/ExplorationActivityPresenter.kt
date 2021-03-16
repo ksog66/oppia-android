@@ -172,6 +172,10 @@ class ExplorationActivityPresenter @Inject constructor(
 
   fun showAudioStreamingOff() = exploreViewModel.isAudioStreamingOn.set(false)
 
+  fun enableAudioButton() = exploreViewModel.enableAudioButton.set(true)
+
+  fun disableAudioButton() = exploreViewModel.enableAudioButton.set(false)
+
   fun setAudioBarVisibility(isVisible: Boolean) =
     getExplorationFragment()?.setAudioBarVisibility(isVisible)
 

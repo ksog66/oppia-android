@@ -76,6 +76,10 @@ class StateFragmentTestActivity :
 
   override fun showAudioStreamingOff() {}
 
+  override fun enableAudioButton() {}
+
+  override fun disableAudioButton() {}
+
   override fun setAudioBarVisibility(isVisible: Boolean) {}
 
   override fun scrollToTop() {

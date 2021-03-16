@@ -130,6 +130,10 @@ class ExplorationActivity :
 
   override fun showAudioStreamingOff() = explorationActivityPresenter.showAudioStreamingOff()
 
+  override fun enableAudioButton() = explorationActivityPresenter.enableAudioButton()
+
+  override fun disableAudioButton() = explorationActivityPresenter.disableAudioButton()
+
   override fun setAudioBarVisibility(isVisible: Boolean) {
     explorationActivityPresenter.setAudioBarVisibility(isVisible)
   }

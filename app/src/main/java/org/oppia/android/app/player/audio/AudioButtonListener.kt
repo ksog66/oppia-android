@@ -19,4 +19,10 @@ interface AudioButtonListener {
 
   /** Scroll to the top of the recycler view. */
   fun scrollToTop()
+
+  /** Enable audio button clickable */
+  fun enableAudioButton()
+
+  /** Disable audio button clickable */
+  fun disableAudioButton()
 }

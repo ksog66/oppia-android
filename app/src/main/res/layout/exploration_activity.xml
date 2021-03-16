@@ -64,7 +64,8 @@
             android:layout_gravity="end"
             android:scaleType="center"
             android:src="@{viewModel.isAudioStreamingOn ? @drawable/ic_audio_streaming_on_24dp :  @drawable/ic_audio_streaming_off_24dp}"
-            android:visibility="@{viewModel.showAudioButton ? View.VISIBLE : View.GONE}" />
+            android:visibility="@{viewModel.showAudioButton ? View.VISIBLE : View.GONE}"
+            android:clickable="@{viewModel.enableAudioButton ? true : false }"/>
         </LinearLayout>
       </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>

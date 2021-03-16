@@ -13,4 +13,7 @@ class ExplorationViewModel @Inject constructor() : ObservableViewModel() {
 
   /** Used to change the audio button enabled status. */
   val isAudioStreamingOn = ObservableField(false)
+
+  /** Used to control clikable of audio Button */
+  val enableAudioButton =ObservableField(true)
 }
